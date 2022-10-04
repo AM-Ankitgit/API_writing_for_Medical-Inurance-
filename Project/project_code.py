@@ -38,6 +38,7 @@ print()
 df=pd.get_dummies(df,columns=["region"])
 
 print(df)
+print(df.sample())
 
 
 # Feature Selection
